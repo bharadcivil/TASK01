@@ -1,0 +1,61 @@
+1,
+HTTP 1 :-
+
+Only one request or responce can be transmitted at s transmitted at a time.
+
+Server push is not supported.
+
+Uses a text-based protools which is in human readable.
+
+Uses plain text headers.
+
+There is no built in mechanism for specifying the priority of requests.
+
+
+HTTP 2:-
+
+It introduces multiplexing,which allows multiple requests.
+
+Allowing the server to push additional resources.
+
+Uses binary protocol efficient for both human and machines.
+
+Uses header compression,which reduces the size of header sent over the connection.
+
+where CSS JAVASCRIPT files can be loaded faster by request prioritization.
+
+----------------------------------------------------------------------------------
+2,
+
+objects are a fundamental data structure used to store and manipulate data. They are a collection of
+ key-value pairs where keys are strings  and values can be of any data type, including 
+ other objects. Objects are an integral part of the language and are used to represent complex data structures,
+ including arrays, functions, and more , object can be created by using object constructor  can add new properties to an object or modify existing
+JavaScript engines represent objects as collections of key-value pairs in a structure called a "property map" or "dictionary."
+This makes objects highly flexible, as you can add or remove properties dynamically.bjects in JavaScript are reference types, which means when you assign
+ an object to a new variable or pass it as a function argument, you are working with a reference to the same object in memory.
+
+ example:-
+
+ const person{
+    name: "jhon",
+    age:23,
+    email: "thisismyemail@gmail.com",
+    address:"india"
+ }
+
+ 
+
+ console.log(person.name);
+ console.log1(person.age);
+ console.log(person.email);
+ console.log(person.address);
+
+
+ output:-
+"jhon"
+ 23
+"thisismyemail@gmail.com"
+"india"
+
+--------------------------------------------------------------------------------------------
